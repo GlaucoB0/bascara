@@ -8,5 +8,5 @@ let delta = (b*b)*(-4)*a*c
 bask_p = ((-b) + Math.sqrt(delta)) /(2*a)
 bask_n = ((-b) - Math.sqrt(delta)) /(2*a)
 
-console.log(bask_p)
+console.log(bask_p) penis
 
