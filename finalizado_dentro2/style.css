@@ -3,32 +3,35 @@
     padding: auto;
     
 }
+
+/* Titulo Bhaskara */
 h1{
     font: 900 20pt arial;
     margin-top: 50px ;
 }
+
+/* Fundo ou corpo do html */
 body{
     background-color: rgb(16, 18, 63);
     text-align: center;
     margin: 90px;
     background-image: linear-gradient(to right, rgb(122, 40, 177), rgb(0, 0, 131));
 }
+
+/* dimensões dos input */
 input{
     width: 100px;
     height: 25px;
 }
 
+/* Coloca os input em uma coluna um abaixo do outro */
 div#numb{
     display: flex;
     flex-direction: column;
     margin-top: 35px;
 }
-p{
-    flex-direction: row;
-    border-radius: 10px;
-    
-    
-}
+
+/* Botão calcular */
 #calcular{
     color: white;
     background-color: rgb(16, 18, 63);
@@ -43,10 +46,12 @@ p{
     box-shadow: 2px 2px 2px rgb(201, 199, 199);
     background-image: linear-gradient(to right, rgb(107, 3, 177), rgb(0, 0, 131));
 }
-
+/* Resultado mostrado abaixo */
 #res{
     margin-top: 20px;
 }
+
+/* Exemplo da função de 2º grau */
 .funcao{
     /*border: 1px solid black;*/
     box-shadow: 1px 3px 3px 1px rgb(194, 196, 201);
@@ -56,7 +61,9 @@ p{
     padding: 7px;
     background-color: white;
     margin-bottom: 10px;
+    border-radius: 9px;
 }
+/* Quadro Branco */
 #container{
     background-color: rgb(250, 246, 246);
     width: 330px;
@@ -66,6 +73,8 @@ p{
     padding-top: 1px;
     box-shadow: 1px 1px 200px 1px rgb(48, 13, 51);
 }
+
+/*Input dos valores A, B, C*/
 input.input{
     border: none ;
     border-radius: 9px;
